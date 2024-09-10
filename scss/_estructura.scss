@@ -24,13 +24,24 @@ body {
 }
 
 .fa-bars{
-	font-size: 33px;
+	font-size: 35px;
+	color: $blanco;
 }
 
 .nav-link{
 	font-family: $poppins;
 	font-size: 20px;
 	margin: 10px 30px;
+}
+
+.offcanvas-body{
+	hr{
+		height: 1px; 
+		margin: 0 30px; 
+		background-color: #137494; 
+		border-radius: 50px; 
+		border-width: 0px;
+	}
 }
 
 //TEXT-BOX
